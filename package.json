@@ -1,0 +1,38 @@
+{
+  "name": "ytmusic",
+  "version": "0.0.5",
+  "description": "Electron wrapper for ytmusic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "com.aarronlee.ytmusic-electron",
+    "productName": "ytmusic",
+    "files": [
+      "index.js",
+      "package.json",
+      "src",
+      "static",
+      "img"
+    ],
+    "linux": {
+      "target": [
+        "AppImage"
+      ],
+      "icon": "img/icon.ico",
+      "artifactName": "${productName}_v${version}_linux.${ext}",
+      "category": "Utility"
+    }
+  },
+  "keywords": [],
+  "author": "aarron-lee",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "electron": "^28.3.3",
+    "electron-builder": "^24.13.3"
+  },
+  "packageManager": "pnpm@8.15.4+sha1.c85a4305534f76d461407b59277b954bac97b5c4"
+}
