@@ -1,6 +1,6 @@
 {
   "name": "ytmusic",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "description": "Electron wrapper for ytmusic",
   "main": "index.js",
   "scripts": {
