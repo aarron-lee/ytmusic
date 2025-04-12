@@ -15,14 +15,14 @@
       "index.js",
       "package.json",
       "src",
-      "static",
-      "img"
+      "img",
+      "LICENSE"
     ],
     "linux": {
       "target": [
         "AppImage"
       ],
-      "icon": "img/icon.ico",
+      "icon": "img/icon.svg",
       "artifactName": "${productName}_v${version}_linux.${ext}",
       "category": "Utility"
     }
