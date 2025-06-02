@@ -14,6 +14,10 @@ A simple electron app wrapper for ytmusic
 - Download AppImage from releases
 - Install the AppImage with your preferred AppImage manager, I'd recommend GearLever
 
+### Flatpak
+
+Manual build, see flatpak manifest here: https://github.com/aarron-lee/flathub/tree/ytmusic
+
 # Build from source
 
 - Clone git repository
