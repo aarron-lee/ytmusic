@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Youtube Music (Unofficial)
+Exec=startytmusic %U
+Terminal=false
+Type=Application
+Icon=io.github.aarron_lee.ytmusic
+StartupWMClass=ytmusic
+GenericName=Youtube Music
+Categories=AudioVideo;
+Keywords=Youtube;YT;
+Comment=Unofficial Youtube music app
